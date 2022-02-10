@@ -586,13 +586,15 @@ button {
   text-shadow: 0 0 3vw #919197;
   font-weight: 400;
   text-align: center;
+  top: -560px;
 }
 #wigbl {
-  margin-left: 56%;
+  margin-left: 55%;
   color: grey;
-  font-size: 1.2em;
-  line-height: 1.5rem;
+  font-size: 1.25em;
+  line-height: 1.55rem;
   font-weight: lighter;
+  background-color:#e2f8ff;
 }
 
 @font-face {
@@ -1277,7 +1279,7 @@ aside {
   border-radius: 50%;
   width: 38%;
   height: 38%;
-  top: -520px;
+  top: -630px;
 }
 
 /*verticalline*/
@@ -1287,6 +1289,11 @@ aside {
   left: 50%;
   margin-left: -3px;
   top: 1400px;
+}
+
+#color{
+  background-color: #e2f8ff;
+  text-decoration-color: #e2f8ff;
 }
 
 @media (max-width: 768px) {
